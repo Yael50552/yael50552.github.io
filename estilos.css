@@ -1,0 +1,91 @@
+html, body {
+	height:100%;
+}
+body {
+	background-color: #6c1d45;
+	font-family: 'Oswal', sans-serif;	
+	color: #ffffff;
+}
+img {
+	border-radius: 50%;
+	/*Prcentaje que cubre la imagen del bloque*/
+	height:140px;
+	width:140px;
+	margin:auto; /*Alinea la imagen en el centro dentro del bloque*/
+	display:block; /*Convierte la imagen en un bloque*/
+	box-shadow: 2px 0px 3px 2px #FFEC30;/*sombra de la imagen*/
+	border: 2px solid white;
+}
+
+div {
+	
+	/*Tamaño del bloque*/
+	height:240px;
+	width:300px;
+	margin:auto; /*Alinea el Div en el centro*/
+	display: flex;
+	flex-direction: column;
+	
+}
+section {
+	width: 79%;
+	background: #ccc;
+	float: left;
+	overflow: auto;
+	padding-bottom: 60px;
+	padding-top:30px;
+}
+
+aside {
+	float: right;
+	border: 1px solid red;
+	width: 18%;
+	border: 1px solid white;
+	padding: 8px;
+	/*Si quisieramos ocultar el contenido relacionado pondriamos visibility a hidden*/
+	/*visibility: hidden;*/
+	border-radius: 10px;
+}
+figure {
+	display: table; margin: 0 auto;
+}
+h2 {
+	text-align: center;
+}
+.main {
+	background-color: #707070;
+	color: white;
+	border-radius: 10px;
+}
+
+.video-michi {
+	border-radius: 10px;
+	height: 400px; 
+	width:  400px;
+}
+.relacionado {
+	width: 100px;
+	height: 92px;
+	border-radius: 8px;
+}
+
+header {
+	background-color: #707070;
+	color: white;
+	border-radius: 10px;
+	display:block;
+	max-width: 2000px;
+	margin: 10px auto 10px auto;
+	padding:10px 0px;
+}
+.logo {
+	display: block;
+	margin: auto;
+    width: 100px;
+    height: 100px;
+}
+.titulo {
+	font-size: 40px;
+	text-align: center;
+	text-shadow: 7px 4px 5px black;
+}
